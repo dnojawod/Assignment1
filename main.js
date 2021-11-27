@@ -1,1 +1,1 @@
-var a ="Hello everyone!";
+var a ="Hi everyone!";

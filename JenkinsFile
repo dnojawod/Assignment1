@@ -21,6 +21,7 @@ pipeline {
                 sh 'gradle integrationTest'
             }
         }
+    }
     post {
         always {
             junit 'build/test-results/**/TEST-*.xml'
